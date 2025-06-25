@@ -1,0 +1,6 @@
+fastapi==0.115.13
+uvicorn[standard]==0.34.3
+pandas==2.3.0
+faker==37.4.0
+python-multipart==0.0.17
+pydantic==2.11.7
