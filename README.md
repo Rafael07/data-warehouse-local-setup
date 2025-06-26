@@ -1,4 +1,4 @@
-# Construção de uma Solução de Business Intelligence Orientada a Dados e Autoatendimento
+# Construção de uma Solução de Business Intelligence Orientada a Dados e Autoatendimento em vendas
 
 ## Introdução
 
@@ -6,15 +6,16 @@ Este documento detalha um projeto de Business Intelligence (BI) que visa transfo
 
 ## 1. Descrição do Problema de Negócio
 
-Em um cenário empresarial dinâmico, a capacidade de tomar decisões rápidas e baseadas em dados é um diferencial competitivo. No entanto, muitas organizações enfrentam desafios como:
+Imagine uma empresa de vendas em crescimento acelerado. Embora possua um volume considerável de dados transacionais (pedidos, cadastros de clientes, etc.), esses dados estão dispersos, desorganizados e, em grande parte, não estruturados para análise. A equipe de vendas e a diretoria enfrentam dificuldades diárias para responder a perguntas cruciais como:
 
-*   **Dados Fragmentados e Inconsistentes:** Informações dispersas em diversas fontes, sem padronização ou qualidade garantida.
-*   **Falta de Métricas Confiáveis:** Dificuldade em definir e calcular indicadores de desempenho (KPIs) de forma consistente e auditável.
-*   **Dependência da TI:** Áreas de negócio dependem excessivamente da equipe de tecnologia para obter relatórios e análises, gerando gargalos e atrasos na tomada de decisão.
-*   **Baixa Adoção de Dados:** Usuários de negócio não conseguem explorar os dados por conta própria, limitando o potencial de descoberta de insights.
-*   **Desatualização:** Dados estáticos que não refletem a realidade mais recente do negócio.
+*   "Qual a receita exata do último mês?"
+*   "Quantos novos clientes adquirimos na última semana e de qual região?"
+*   "Qual o ticket médio por segmento de cliente?"
+*   "Quais produtos estão performando melhor em determinadas datas?"
 
-O problema central é a **lacuna entre os dados operacionais e a inteligência de negócio**, impedindo que a empresa capitalize plenamente o valor de suas informações para impulsionar o crescimento e a eficiência.
+Essa falta de acesso a informações confiáveis e em tempo hábil impede a tomada de decisões estratégicas baseadas em dados, resultando em oportunidades perdidas, campanhas de marketing ineficazes e uma visão limitada do desempenho do negócio. A dependência de relatórios manuais e demorados gera gargalos e frustração.
+
+O problema central é a **incapacidade de transformar dados operacionais brutos em inteligência de negócio acionável**, limitando o potencial de crescimento e a agilidade da empresa no mercado.
 
 ## 2. Objetivos de Negócio
 
@@ -22,7 +23,7 @@ Para superar os desafios identificados, este projeto estabeleceu os seguintes ob
 
 *   **Democratizar o Acesso à Informação:** Capacitar usuários de negócio a acessar e analisar dados de forma autônoma, reduzindo a dependência da equipe de TI.
 *   **Garantir a Confiabilidade dos Dados:** Fornecer métricas e KPIs consistentes, precisos e auditáveis, que sirvam como uma "fonte única da verdade" para toda a organização.
-*   **Acelerar a Tomada de Decisão:** Reduzir o tempo entre a necessidade de uma informação e sua disponibilidade para análise, permitindo respostas mais ágeis às mudanças do mercado.
+*   **Acelerar a Tomada de Decisão:** Reduzir o tempo entre a necessidade de uma informação e sua disponibilidade para análise, permitindo respostas mais ágéis às mudanças do mercado.
 *   **Otimizar o Desempenho:** Identificar oportunidades de melhoria em processos de vendas e relacionamento com clientes através de análises detalhadas.
 *   **Promover a Cultura Orientada a Dados:** Incentivar a experimentação e a descoberta de insights por parte dos usuários de negócio.
 
@@ -53,7 +54,9 @@ O dbt foi a **espinha dorsal** da camada de transformação e modelagem do Data 
 Para garantir que o Data Warehouse reflita os dados mais recentes e demonstrar proficiência em integração via APIs, foi desenvolvida uma API RESTful utilizando **FastAPI**.
 
 *   **Propósito:** Fornecer dados incrementais (cadastros e pedidos) de forma programática, simulando a ingestão de dados em tempo quase real ou de sistemas transacionais.
+
 *   **Funcionalidades:** A API permite a geração de dados para períodos específicos, com volumes randomizados para simular cenários reais de negócio. Inclui endpoints para dados diários, dados de um período específico e um endpoint dedicado para os dados do projeto (desde 10 de junho até a data atual).
+
 *   **Benefícios:** Demonstra a capacidade de manipular e integrar dados de diversas fontes, incluindo APIs, um requisito chave para Analistas de BI. A documentação interativa gerada automaticamente pelo FastAPI (`/docs`) é um diferencial para a demonstração.
 
 ### 3.3. Visualização e Self-Service BI (Bricks)
@@ -86,7 +89,7 @@ Este projeto resultou na criação de uma solução de Business Intelligence que
 
 ## 5. Ferramentas de Visualização: Uma Perspectiva Estratégica
 
-É fundamental ressaltar que, embora o edital mencione ferramentas específicas como Qlik Sense e NPrinting, a **proficiência em ferramentas de visualização de dados é uma competência transferível**. O principal valor de um Analista de BI reside na sua capacidade de:
+É fundamental ressaltar que, embora o edital mencione ferramentas específicas como Qlik Sense e Nprinting, a **proficiência em ferramentas de visualização de dados é uma competência transferível**. O principal valor de um Analista de BI reside na sua capacidade de:
 
 *   **Compreender o Problema de Negócio:** Traduzir desafios empresariais em perguntas que podem ser respondidas por dados.
 *   **Definir e Modelar Indicadores:** Transformar dados brutos em KPIs significativos e confiáveis, aplicando lógica de negócio e princípios de modelagem informacional (como demonstrado com o dbt).
