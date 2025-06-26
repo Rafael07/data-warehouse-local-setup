@@ -1,4 +1,4 @@
-# Projeto de Portfólio: Construção de uma Solução de Business Intelligence Orientada a Dados e Autoatendimento
+# Construção de uma Solução de Business Intelligence Orientada a Dados e Autoatendimento
 
 ## Introdução
 
