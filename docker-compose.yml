@@ -34,7 +34,7 @@ services:
       - DB_NAME=dbt_db
     volumes:
       - ./api:/app
-      - ./api/seeds_api:/app/seeds_api
+      - ../2_data_warehouse/dw_dbt_airflow/seeds:/app/seeds:rw
     depends_on:
       postgres:
         condition: service_healthy

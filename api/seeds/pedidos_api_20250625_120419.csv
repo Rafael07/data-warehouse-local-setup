@@ -1,0 +1,82 @@
+id_pedido,cpf,valor_pedido,valor_frete,valor_desconto,cupom,endereco_entrega_logradouro,endereco_entrega_numero,endereco_entrega_bairro,endereco_entrega_cidade,endereco_entrega_estado,endereco_entrega_pais,status_pedido,data_pedido
+46e7bbb2-a64b-4f9f-b0dd-4681fef83695,607.186.431-53,1978.93,58.71,0.0,,Estação Davi Miguel Pimenta,9,Beira Linha,Brito,SE,Brasil,pendente,2025-06-20
+505e3ca1-e31d-457d-83fa-938cb65b5f8d,020.347.754-58,689.86,26.5,70.03,CUPOMA625F73A,Via Moraes,48,Conjunto Celso Machado,Nunes de Teixeira,AM,Brasil,cancelado,2025-06-24
+2d467d22-7dca-4bf7-b8d9-7b3c47f24cd1,060.203.945-17,1840.02,86.04,298.67,CUPOM08736D5E,Residencial de Santos,41,Nova Gameleira,Casa Grande,AC,Brasil,pendente,2025-06-23
+00041eda-abc7-4235-9dd6-1c03c0008746,311.994.811-19,324.54,51.98,0.0,,Pátio de Novais,410,Marieta 3ª Seção,Viana,PA,Brasil,pendente,2025-06-12
+618139a8-7cd3-435b-958e-a1573c12c0a9,047.830.863-89,285.67,80.89,0.0,,Vereda de Machado,42,Vila Antena,Cavalcanti,PI,Brasil,pendente,2025-06-16
+62a78b6b-6583-489a-ba04-f8490ece10da,498.408.641-80,1144.35,11.09,0.0,,Distrito Mathias Cavalcanti,96,Nova Granada,Moreira das Flores,SC,Brasil,pago,2025-06-23
+535454a8-c5a7-461e-a915-dbb87ac8d728,872.307.700-96,1292.09,78.38,119.93,CUPOMB97A7441,Largo Rafaela Lima,2,Vila Santo Antônio,Leão,RO,Brasil,pendente,2025-06-22
+0404a107-39c0-4851-a18a-0f2b82e5400b,428.928.827-46,266.65,9.71,0.0,,Pátio de Moura,52,Apolonia,Campos das Flores,PB,Brasil,entregue,2025-06-13
+22f0700b-41c4-43b5-8b13-c92ea180542b,622.501.273-04,970.33,17.52,0.0,,Vereda de Leão,9,São José,Vasconcelos,AL,Brasil,entregue,2025-06-17
+9434f4e6-b885-4faf-8b18-b3cc1af2f4d3,498.408.641-80,497.38,79.71,0.0,,Praça Sales,5,Mirante,Ribeiro do Norte,MG,Brasil,cancelado,2025-06-14
+e691b59d-2853-4a90-9bc3-8c9703c83984,126.280.443-04,768.52,12.8,150.25,CUPOM8C2F7A81,Trevo Campos,469,Vila Maria,da Cunha,GO,Brasil,pago,2025-06-21
+2856feea-e46c-42b7-abd7-f6cccbe4e02f,837.418.724-40,1934.43,45.25,0.0,,Alameda Garcia,51,Palmares,da Luz,PI,Brasil,pago,2025-06-10
+f7af6ff1-874e-4089-9dc4-42c0e39b24a5,622.501.273-04,1308.34,90.81,0.0,,Favela Fogaça,975,Jaraguá,Correia,RO,Brasil,pendente,2025-06-11
+620043dc-1a66-4449-8bb4-b3796d37a652,020.347.754-58,890.13,85.14,0.0,,Conjunto Isabelly Sousa,106,São Tomaz,Leão da Prata,PR,Brasil,pendente,2025-06-17
+69cad16b-b16c-4212-8711-7115e7f55259,498.408.641-80,674.98,35.64,0.0,,Chácara Nicole Nogueira,968,Vila Real 1ª Seção,Cunha do Norte,PE,Brasil,entregue,2025-06-20
+7aac545a-6e62-485d-a0c4-178477b5f9bb,932.180.945-04,244.21,50.16,0.0,,Favela Pimenta,91,Liberdade,Correia Paulista,MT,Brasil,entregue,2025-06-19
+28bcbdc8-7841-467e-83ff-3eedfc56e87a,496.956.546-52,741.56,28.51,138.95,CUPOMD7389867,Lago Daniela Barros,55,Serra Verde,da Cunha do Amparo,DF,Brasil,entregue,2025-06-21
+ee0d37fb-f1d4-4e57-8c91-aa192571dbb4,932.180.945-04,562.87,24.03,0.0,,Distrito Lara Caldeira,50,Novo Glória,Nogueira,MT,Brasil,pago,2025-06-14
+3f719f94-6a26-4cd2-acb2-d391ee651bef,016.649.160-05,521.78,66.22,78.18,CUPOMFB7FFD1C,Pátio de Novaes,14,Jatobá,Aparecida do Sul,AC,Brasil,entregue,2025-06-16
+2e17a736-ccf9-4dec-a052-973fa36a7079,047.830.863-89,249.01,73.0,0.0,,Parque da Cruz,54,João Pinheiro,da Paz do Oeste,RJ,Brasil,pago,2025-06-13
+50ab4304-6275-4bcb-8d02-4a711233131f,578.206.691-00,1439.77,7.37,0.0,,Avenida Ramos,939,Caetano Furquim,da Paz da Praia,RR,Brasil,entregue,2025-06-23
+026f0288-26eb-42e6-a5b8-cd064cf2c6ee,697.601.300-06,1178.44,38.29,153.42,CUPOM1A7C5C41,Condomínio de Sousa,988,São Bento,Nunes do Oeste,PA,Brasil,entregue,2025-06-18
+a5df00ae-2d23-42d8-857a-df3b17173dbd,202.105.404-98,1795.9,26.93,0.0,,Viaduto de Vieira,70,Estrela,Ferreira,RJ,Brasil,pendente,2025-06-12
+65448361-d579-4896-a5d1-60fee3de005c,498.408.641-80,1206.67,91.71,0.0,,Morro Sampaio,17,Conjunto Floramar,Garcia,SE,Brasil,cancelado,2025-06-23
+0e9da8f8-9e82-4a1b-a0fc-9141ef0aad07,311.994.811-19,829.16,37.92,0.0,,Viaduto Ana Lívia Melo,93,Marajó,Duarte Paulista,CE,Brasil,enviado,2025-06-13
+c61f5fe3-4b63-49f9-bf3d-587d182b2d5e,428.928.827-46,893.36,29.44,0.0,,Travessa de Vargas,137,Conjunto Taquaril,Azevedo,MT,Brasil,entregue,2025-06-22
+ef4036d1-0134-42cd-a282-d4117db94527,915.537.393-51,1330.56,66.62,179.59,CUPOM4BEF8DAF,Sítio da Rocha,5,Serra Verde,Nogueira,MS,Brasil,pendente,2025-06-17
+efc5456f-639a-436e-80f0-a35c94d37750,915.537.393-51,753.68,51.06,0.0,,Trecho Luiz Henrique Moura,401,Vila Mangueiras,Martins do Oeste,MA,Brasil,cancelado,2025-06-11
+aaa3725f-3cb6-4b67-82c2-d99b1ef692a8,578.206.691-00,1412.7,94.14,0.0,,Trecho Lopes,9,Planalto,Guerra de Ferreira,RS,Brasil,cancelado,2025-06-21
+d8e92c7b-a8dc-4a38-82bc-7a7915a4c572,020.347.754-58,1368.92,87.15,0.0,,Rua de Rezende,86,Mangueiras,Lima,PI,Brasil,enviado,2025-06-13
+d63bca19-b28b-4706-973c-642132122512,915.537.393-51,522.58,68.71,0.0,,Rua Luiz Miguel Borges,862,Conjunto Jatoba,Cassiano,CE,Brasil,pago,2025-06-22
+ce5b9765-b30a-4303-9fbd-26538854a0d1,993.335.219-71,1288.53,19.63,0.0,,Rodovia Souza,8,Palmares,da Conceição,SC,Brasil,entregue,2025-06-12
+5f1388e8-37d3-458a-87ff-834887b9720e,496.956.546-52,1852.21,82.84,0.0,,Travessa de Rios,991,Distrito Industrial Do Jatoba,Azevedo do Norte,CE,Brasil,cancelado,2025-06-20
+2ded9d9b-343a-4f8d-a011-699fd877ec89,313.646.479-06,696.7,62.32,0.0,,Viaduto Davi Luiz Mendonça,93,Castelo,Alves,AP,Brasil,enviado,2025-06-19
+a0f490e7-a978-48b7-a7e2-5d3868873c0d,993.335.219-71,1662.96,42.54,0.0,,Lagoa de Teixeira,78,Vila Canto Do Sabiá,das Neves Paulista,RN,Brasil,enviado,2025-06-14
+30de36ea-b659-4b8d-a596-4b690ca54d8a,644.755.303-82,1754.03,60.29,0.0,,Fazenda Costela,329,Unidas,da Rosa do Campo,AL,Brasil,entregue,2025-06-16
+c4abf317-05e0-47c5-ad42-ff0cc7398be5,238.993.274-72,1461.23,96.65,242.66,CUPOM24071F75,Recanto Costela,88,Dom Joaquim,Aparecida de Sampaio,AC,Brasil,enviado,2025-06-12
+f6d22dc5-b4fa-467e-a9a2-f58f7d1f6955,915.537.393-51,234.77,16.69,0.0,,Morro Costa,69,Santo André,Vasconcelos,SC,Brasil,pago,2025-06-17
+3fb82079-2e28-47eb-bbd7-f5ea5e323993,202.105.404-98,1684.09,64.58,0.0,,Sítio de Lima,90,Ambrosina,Melo de Minas,MS,Brasil,cancelado,2025-06-17
+9476093c-5dc1-4378-b912-f078fcbf864a,233.787.480-94,610.75,46.33,0.0,,Esplanada Brito,8,Guarani,Mendonça de Machado,ES,Brasil,pago,2025-06-16
+be58a370-a54f-4608-9e95-7faccaea6895,644.755.303-82,1603.03,90.28,0.0,,Feira Freitas,62,Paulo Vi,Melo,GO,Brasil,enviado,2025-06-12
+1bd82d00-30c4-4882-86cc-8113e2f75aaf,697.601.300-06,932.37,61.49,0.0,,Lago Mirella Rezende,715,Palmares,Cardoso de Mendonça,CE,Brasil,enviado,2025-06-24
+d631ff93-95a8-42c8-ac25-9286c5c9f0ce,311.994.811-19,1083.51,41.43,0.0,,Vale Mariana Araújo,6,Santana Do Cafezal,Sousa de da Costa,TO,Brasil,entregue,2025-06-10
+641b206b-1528-4df4-9898-0ba9a5e1e899,126.280.443-04,194.95,66.14,0.0,,Trecho de Dias,14,Ipe,Silva Paulista,PA,Brasil,cancelado,2025-06-16
+ce4b92e0-ea0a-47fe-868c-488ddb3bf452,809.512.029-51,168.46,22.32,0.0,,Vale Thiago Andrade,47,Vale Do Jatoba,Monteiro de Farias,DF,Brasil,enviado,2025-06-21
+9b516b7b-e325-40ea-bf2d-4bdedc7536b7,587.325.585-05,979.11,11.88,0.0,,Trevo Pimenta,92,Candelaria,Sales,SE,Brasil,cancelado,2025-06-19
+574f79d8-3206-4e28-ba69-914a03565218,837.418.724-40,1779.23,20.24,0.0,,Vereda Macedo,32,Conjunto Paulo Vi,Borges da Praia,PA,Brasil,entregue,2025-06-15
+93af9770-0990-4e18-b45b-955ddf426d8c,665.396.305-02,1618.79,44.73,0.0,,Via Albuquerque,985,Jaraguá,da Rosa de Albuquerque,RR,Brasil,cancelado,2025-06-19
+8df6a1d1-17d5-4501-aa00-21fe998305c4,407.023.408-48,1191.2,49.78,0.0,,Setor Arthur Gabriel Macedo,54,Vila Independencia 2ª Seção,Brito Paulista,MS,Brasil,pago,2025-06-13
+9dc8eff6-bc5a-4a08-8949-cb44742c0036,407.023.408-48,170.19,42.64,19.04,CUPOMCFA3EE0B,Favela Otto Vasconcelos,76,Jardim Do Vale,Cirino das Flores,MT,Brasil,pago,2025-06-14
+a042ea6d-1885-4b62-bec9-b2503951c38f,335.171.559-30,579.01,58.72,0.0,,Fazenda de Pereira,51,Xodo-Marize,Pastor,AC,Brasil,pago,2025-06-16
+b67260b3-b7e5-449d-b235-b58a4e23517a,827.413.222-70,271.57,72.83,0.0,,Praia Breno da Rocha,9,Vila Nova Dos Milionarios,Rezende,AP,Brasil,entregue,2025-06-10
+4d282e9a-4b78-4c38-a539-ead23002cce5,607.186.431-53,1796.0,41.15,0.0,,Vale Gael Henrique Sousa,45,Bom Jesus,Borges Verde,CE,Brasil,pago,2025-06-13
+9e63142d-a5ee-47ad-8b39-aa21876c2957,809.512.029-51,1981.77,71.4,0.0,,Aeroporto Melissa Rodrigues,212,Bom Jesus,Albuquerque,RR,Brasil,cancelado,2025-06-22
+29a5f5fb-d438-45c5-b74b-177bc4317ef6,836.077.682-20,1488.81,23.44,0.0,,Praça Fernandes,3,Vila Nova,Borges,MS,Brasil,pendente,2025-06-10
+d3d71397-dec0-4b12-9b8c-3b765da07095,233.787.480-94,763.29,45.77,0.0,,Alameda Heitor Duarte,4,Floramar,da Conceição do Sul,PR,Brasil,cancelado,2025-06-14
+fc1b971c-ab05-411a-9356-69f76a951036,313.054.820-05,93.32,72.43,0.0,,Quadra Julia Martins,69,Itatiaia,Ferreira,SP,Brasil,pago,2025-06-13
+53f9094c-4896-4d3c-b11d-91685c5a24c4,836.077.682-20,1536.08,97.0,0.0,,Campo Theo da Mata,19,Jardim São José,Pinto da Mata,SE,Brasil,entregue,2025-06-18
+39e9c318-ee6a-4884-8735-f4ea27fa3984,202.105.404-98,84.78,81.81,0.0,,Condomínio Hellena Duarte,509,Baleia,da Mota,SP,Brasil,entregue,2025-06-20
+bfee7328-e689-4f70-b204-8e7d9c207dc1,665.396.305-02,613.07,80.0,0.0,,Vale da Rocha,4,Jardim Alvorada,Cassiano de Viana,SC,Brasil,enviado,2025-06-14
+c08c96bc-26ba-4fd0-9011-34dc7f659c74,020.347.754-58,1592.87,57.46,0.0,,Lagoa de Novais,91,Marieta 2ª Seção,Porto,RJ,Brasil,enviado,2025-06-20
+9278a05f-d98c-4eb5-a56d-209a984a2b43,020.347.754-58,1374.58,16.91,81.44,CUPOM87EDCEBC,Quadra de Lima,804,Vista Do Sol,Moura Paulista,SE,Brasil,pago,2025-06-17
+5dd1db27-03a7-4ea8-89f2-d61858c6fd27,126.280.443-04,1945.77,82.33,0.0,,Núcleo de Viana,30,Nova Granada,Jesus do Campo,RJ,Brasil,pendente,2025-06-19
+c42abde3-4007-4612-bb7a-4226fd2f77c0,047.830.863-89,528.76,70.34,0.0,,Chácara da Paz,90,João Alfredo,Sales do Sul,PI,Brasil,entregue,2025-06-15
+3f045426-0d63-4219-a4ad-decb4a51f80a,521.888.512-51,414.68,38.36,0.0,,Vila Duarte,738,Dom Cabral,Mendonça do Sul,MT,Brasil,cancelado,2025-06-23
+a18fa7e2-21b3-44c9-9aa5-7bd9bd18c3a0,498.408.641-80,1091.29,96.15,0.0,,Aeroporto da Conceição,8,Diamante,Cavalcante,AL,Brasil,pago,2025-06-18
+17e57c0d-db63-4d35-a7fd-ce7762dcbca0,060.203.945-17,407.12,18.32,0.0,,Feira de Rodrigues,77,Jardim Felicidade,Novaes Grande,SP,Brasil,pendente,2025-06-24
+6103f85a-93d8-4e5c-b182-36a0d4357d8a,636.846.723-73,1571.74,86.55,0.0,,Sítio Josué Carvalho,11,Vila Piratininga,Cassiano Verde,MG,Brasil,pago,2025-06-10
+9414b590-c5f3-4445-9313-694c2756ce3c,313.646.479-06,1008.17,59.86,0.0,,Viaduto de Aparecida,610,Jardim Atlântico,Sampaio Grande,BA,Brasil,pendente,2025-06-21
+509c41ae-1fb1-4a7b-ae7f-8fe00eec9530,016.649.160-05,338.6,38.46,0.0,,Viaduto de da Mota,36,Unidas,Carvalho,PA,Brasil,enviado,2025-06-15
+a7e7bc5b-7a90-4a61-af99-236c62e01737,836.077.682-20,549.07,71.53,80.18,CUPOM3141A003,Área de das Neves,18,Ambrosina,da Luz,AM,Brasil,pendente,2025-06-19
+7ada4a47-cbc8-4278-8a82-ddbf0397667b,872.307.700-96,903.17,68.32,0.0,,Viela das Neves,2,Horto Florestal,Andrade,MA,Brasil,entregue,2025-06-14
+d7e1396c-74c9-4179-8943-3c00ae734d98,636.846.723-73,758.64,32.04,0.0,,Estrada Sousa,90,São Benedito,Cunha do Sul,PA,Brasil,enviado,2025-06-22
+b5adffe2-869e-4cd2-96c1-02e6ce973286,893.173.612-46,395.19,44.82,0.0,,Alameda de Silva,8,Vila Jardim Montanhes,Guerra Verde,PB,Brasil,pago,2025-06-19
+9461e18f-c496-4b3f-a44b-b059df7fc202,311.994.811-19,912.6,52.35,0.0,,Fazenda Maria Liz Pires,218,Eymard,Lopes,AL,Brasil,entregue,2025-06-24
+b7162988-fe97-4a1b-a604-488df3f99ef5,496.956.546-52,856.24,5.21,0.0,,Loteamento Novais,22,Carlos Prates,Fernandes,AL,Brasil,entregue,2025-06-16
+58cd7026-070c-445a-af21-9e76b98535d8,872.307.700-96,1331.14,49.88,0.0,,Trevo Danilo Santos,298,Jardim Atlântico,Leão das Flores,RS,Brasil,enviado,2025-06-22
+7cf5011f-c561-4874-a6d1-1bab9cf52daf,837.418.724-40,845.19,50.07,0.0,,Parque João Vitor da Costa,49,Jonas Veiga,Ramos,AL,Brasil,cancelado,2025-06-16
+a0d81265-d31c-4296-82ea-82e065d721cc,304.910.514-98,1923.4,53.61,0.0,,Recanto Rafaela Montenegro,71,Vila Sesc,da Cruz,BA,Brasil,pendente,2025-06-11
+998b869a-9fa8-4659-8bf4-3a15631bfa4f,428.928.827-46,1249.6,76.2,0.0,,Vereda Ana Clara Sá,988,Vale Do Jatoba,Monteiro,MA,Brasil,pago,2025-06-19
+149716fb-13b5-4758-801e-2301827ba5ce,827.413.222-70,1450.24,38.99,0.0,,Pátio Melo,72,Taquaril,Silveira da Praia,PA,Brasil,pendente,2025-06-13

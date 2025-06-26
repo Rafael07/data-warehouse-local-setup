@@ -31,7 +31,7 @@ def gerar_dados_periodo(
     if seed is not None:
         random.seed(seed)
         np.random.seed(seed)
-        Faker.seed(seed)  # Usar método estático do Faker
+        # fake.seed_instance(seed)  
     
     # Volumes randomizados (mais realista)
     total_cadastros = random.randint(2, 20)
@@ -148,7 +148,7 @@ def gerar_pedidos_periodo(data_inicio: str, data_fim: str, quantidade: int, cpfs
     
     return pedidos
 
-def salvar_dados_csv(dados: Dict, pasta_destino: str = "./seeds_api/") -> Dict[str, str]:
+def salvar_dados_csv(dados: Dict, pasta_destino: str = "/app/seeds") -> Dict[str, str]:
     """
     Salva os dados gerados em arquivos CSV para integração com dbt.
     
@@ -161,8 +161,25 @@ def salvar_dados_csv(dados: Dict, pasta_destino: str = "./seeds_api/") -> Dict[s
     """
     import os
     
+    # DEBUG: Print do diretório atual e destino
+    print(f"=== DEBUG PATHS ===")
+    print(f"Diretório atual de trabalho: {os.getcwd()}")
+    print(f"Pasta destino configurada: {pasta_destino}")
+    print(f"Pasta destino absoluta: {os.path.abspath(pasta_destino)}")
+    
+    # Verificar se a pasta existe
+    if os.path.exists(pasta_destino):
+        print(f"✅ Pasta destino existe!")
+        print(f"Conteúdo atual da pasta: {os.listdir(pasta_destino)}")
+    else:
+        print(f"❌ Pasta destino NÃO existe! Tentando criar...")
+    
     # Criar pasta se não existir
-    os.makedirs(pasta_destino, exist_ok=True)
+    try:
+        os.makedirs(pasta_destino, exist_ok=True)
+        print(f"✅ Pasta criada/verificada com sucesso!")
+    except Exception as e:
+        print(f"❌ Erro ao criar pasta: {e}")
     
     # Converter para DataFrames
     df_cadastros = pd.DataFrame(dados['dados']['cadastros'])
@@ -170,12 +187,36 @@ def salvar_dados_csv(dados: Dict, pasta_destino: str = "./seeds_api/") -> Dict[s
     
     # Gerar nomes de arquivo com timestamp
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    arquivo_cadastros = f"{pasta_destino}cadastros_api_{timestamp}.csv"
-    arquivo_pedidos = f"{pasta_destino}pedidos_api_{timestamp}.csv"
+    arquivo_cadastros = os.path.join(pasta_destino, f"cadastros_api_{timestamp}.csv")
+    arquivo_pedidos = os.path.join(pasta_destino, f"pedidos_api_{timestamp}.csv")
+    
+    print(f"Tentando salvar:")
+    print(f"- Cadastros em: {arquivo_cadastros}")
+    print(f"- Pedidos em: {arquivo_pedidos}")
     
     # Salvar CSVs
-    df_cadastros.to_csv(arquivo_cadastros, index=False)
-    df_pedidos.to_csv(arquivo_pedidos, index=False)
+    try:
+        df_cadastros.to_csv(arquivo_cadastros, index=False)
+        print(f"✅ Cadastros salvos com sucesso!")
+        
+        df_pedidos.to_csv(arquivo_pedidos, index=False)
+        print(f"✅ Pedidos salvos com sucesso!")
+        
+        # Verificar se os arquivos realmente foram criados
+        if os.path.exists(arquivo_cadastros):
+            print(f"✅ Arquivo cadastros confirmado: {os.path.getsize(arquivo_cadastros)} bytes")
+        else:
+            print(f"❌ Arquivo cadastros NÃO encontrado!")
+            
+        if os.path.exists(arquivo_pedidos):
+            print(f"✅ Arquivo pedidos confirmado: {os.path.getsize(arquivo_pedidos)} bytes")
+        else:
+            print(f"❌ Arquivo pedidos NÃO encontrado!")
+            
+    except Exception as e:
+        print(f"❌ Erro ao salvar arquivos: {e}")
+    
+    print(f"=== FIM DEBUG ===")
     
     return {
         "cadastros": arquivo_cadastros,

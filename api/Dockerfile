@@ -16,9 +16,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copiar código da aplicação
 COPY . .
 
-# Criar diretório para CSVs se necessário
-RUN mkdir -p /app/seeds_api
-
 # Expor porta 8000
 EXPOSE 8000
 

@@ -175,7 +175,8 @@ async def get_dados_desde_junho(
     return await get_dados_periodo(
         data_inicio=date(2025, 6, 10),
         data_fim=date.today(),
-        salvar_csv=salvar_csv
+        salvar_csv=salvar_csv,
+        seed=None
     )
 
 @app.get("/health", summary="Verificação de saúde da API")
